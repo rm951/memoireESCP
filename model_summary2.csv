@@ -3,7 +3,7 @@ Dep. Variable:   ,Q1-Q5           ,  R-squared:         ,   0.850
 Model:           ,OLS             ,  Adj. R-squared:    ,   0.850 
 Method:          ,Least Squares   ,  F-statistic:       ,   1316. 
 Date:            ,Mon, 08 May 2023,  Prob (F-statistic):,2.50e-286
-Time:            ,12:49:15        ,  Log-Likelihood:    , -619.74 
+Time:            ,13:02:15        ,  Log-Likelihood:    , -619.74 
 No. Observations:,   700          ,  AIC:               ,   1247. 
 Df Residuals:    ,   696          ,  BIC:               ,   1266. 
 Df Model:        ,     3          ,                     ,         
