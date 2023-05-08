@@ -1,0 +1,22 @@
+                      OLS Regression Results                      
+Dep. Variable:   ,Q1-Q5           ,  R-squared:         ,   0.850 
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.850 
+Method:          ,Least Squares   ,  F-statistic:       ,   1316. 
+Date:            ,Mon, 08 May 2023,  Prob (F-statistic):,2.50e-286
+Time:            ,12:49:15        ,  Log-Likelihood:    , -619.74 
+No. Observations:,   700          ,  AIC:               ,   1247. 
+Df Residuals:    ,   696          ,  BIC:               ,   1266. 
+Df Model:        ,     3          ,                     ,         
+Covariance Type: ,nonrobust       ,                     ,         
+                 ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const            ,    0.3018,    0.103,    2.940, 0.003,    0.100,    0.503
+inflationNRG/SERV,    0.0042,    0.001,    2.830, 0.005,    0.001,    0.007
+gov_exp_social   ,   -0.0148,    0.006,   -2.595, 0.010,   -0.026,   -0.004
+Q1-Q5_lag1       ,    0.9375,    0.015,   61.164, 0.000,    0.907,    0.968
+Omnibus:      ,243.227,  Durbin-Watson:     ,   1.935
+Prob(Omnibus):, 0.000 ,  Jarque-Bera (JB):  ,4874.341
+Skew:         , 1.039 ,  Prob(JB):          ,    0.00
+Kurtosis:     ,15.759 ,  Cond. No.          ,    94.6
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
