@@ -1,0 +1,85 @@
+<table class="simpletable">
+<caption>OLS Regression Results</caption>
+<tr>
+  <th>Dep. Variable:</th>      <td>Y_LT30-Y_GE60</td>  <th>  R-squared (uncentered):</th>      <td>   0.857</td> 
+</tr>
+<tr>
+  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared (uncentered):</th> <td>   0.854</td> 
+</tr>
+<tr>
+  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>   300.2</td> 
+</tr>
+<tr>
+  <th>Date:</th>             <td>Wed, 10 May 2023</td> <th>  Prob (F-statistic):</th>          <td>4.81e-245</td>
+</tr>
+<tr>
+  <th>Time:</th>                 <td>16:16:00</td>     <th>  Log-Likelihood:    </th>          <td> -360.72</td> 
+</tr>
+<tr>
+  <th>No. Observations:</th>      <td>   615</td>      <th>  AIC:               </th>          <td>   745.4</td> 
+</tr>
+<tr>
+  <th>Df Residuals:</th>          <td>   603</td>      <th>  BIC:               </th>          <td>   798.5</td> 
+</tr>
+<tr>
+  <th>Df Model:</th>              <td>    12</td>      <th>                     </th>              <td> </td>    
+</tr>
+<tr>
+  <th>Covariance Type:</th>      <td>nonrobust</td>    <th>                     </th>              <td> </td>    
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+           <td></td>             <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
+</tr>
+<tr>
+  <th>inflationNRG/SERV</th>  <td>   -0.0033</td> <td>    0.002</td> <td>   -2.136</td> <td> 0.033</td> <td>   -0.006</td> <td>   -0.000</td>
+</tr>
+<tr>
+  <th>gov_exp_social</th>     <td>    0.0049</td> <td>    0.004</td> <td>    1.175</td> <td> 0.240</td> <td>   -0.003</td> <td>    0.013</td>
+</tr>
+<tr>
+  <th>inflationNRG/TOT</th>   <td>   -0.0053</td> <td>    0.006</td> <td>   -0.822</td> <td> 0.411</td> <td>   -0.018</td> <td>    0.007</td>
+</tr>
+<tr>
+  <th>gini</th>               <td>   -0.0096</td> <td>    0.006</td> <td>   -1.618</td> <td> 0.106</td> <td>   -0.021</td> <td>    0.002</td>
+</tr>
+<tr>
+  <th>urbanisation</th>       <td>    0.0029</td> <td>    0.002</td> <td>    1.322</td> <td> 0.187</td> <td>   -0.001</td> <td>    0.007</td>
+</tr>
+<tr>
+  <th>poverty</th>            <td>    0.0023</td> <td>    0.006</td> <td>    0.366</td> <td> 0.714</td> <td>   -0.010</td> <td>    0.014</td>
+</tr>
+<tr>
+  <th>electric_share</th>     <td>    0.0007</td> <td>    0.003</td> <td>    0.247</td> <td> 0.805</td> <td>   -0.005</td> <td>    0.006</td>
+</tr>
+<tr>
+  <th>importation</th>        <td>    0.0004</td> <td>    0.001</td> <td>    0.582</td> <td> 0.561</td> <td>   -0.001</td> <td>    0.002</td>
+</tr>
+<tr>
+  <th>Y_LT30-Y_GE60_lag1</th> <td>    0.9166</td> <td>    0.040</td> <td>   22.666</td> <td> 0.000</td> <td>    0.837</td> <td>    0.996</td>
+</tr>
+<tr>
+  <th>Y_LT30-Y_GE60_lag2</th> <td>    0.0419</td> <td>    0.055</td> <td>    0.763</td> <td> 0.446</td> <td>   -0.066</td> <td>    0.150</td>
+</tr>
+<tr>
+  <th>Y_LT30-Y_GE60_lag3</th> <td>    0.0785</td> <td>    0.055</td> <td>    1.418</td> <td> 0.157</td> <td>   -0.030</td> <td>    0.187</td>
+</tr>
+<tr>
+  <th>Y_LT30-Y_GE60_lag4</th> <td>   -0.1049</td> <td>    0.043</td> <td>   -2.468</td> <td> 0.014</td> <td>   -0.188</td> <td>   -0.021</td>
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+  <th>Omnibus:</th>       <td>358.724</td> <th>  Durbin-Watson:     </th> <td>   2.010</td> 
+</tr>
+<tr>
+  <th>Prob(Omnibus):</th> <td> 0.000</td>  <th>  Jarque-Bera (JB):  </th> <td>32545.667</td>
+</tr>
+<tr>
+  <th>Skew:</th>          <td> 1.673</td>  <th>  Prob(JB):          </th> <td>    0.00</td> 
+</tr>
+<tr>
+  <th>Kurtosis:</th>      <td>38.481</td>  <th>  Cond. No.          </th> <td>    371.</td> 
+</tr>
+</table><br/><br/>Notes:<br/>[1] R² is computed without centering (uncentered) since the model does not contain a constant.<br/>[2] Standard Errors assume that the covariance matrix of the errors is correctly specified.

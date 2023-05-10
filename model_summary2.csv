@@ -1,25 +1,28 @@
                       OLS Regression Results                      
-Dep. Variable:   ,Q1-Q5           ,  R-squared:         ,   0.855 
+Dep. Variable:   ,Q1-Q5           ,  R-squared:         ,   0.856 
 Model:           ,OLS             ,  Adj. R-squared:    ,   0.854 
-Method:          ,Least Squares   ,  F-statistic:       ,   599.3 
-Date:            ,Mon, 08 May 2023,  Prob (F-statistic):,1.04e-251
-Time:            ,13:21:33        ,  Log-Likelihood:    , -562.33 
-No. Observations:,   616          ,  AIC:               ,   1139. 
-Df Residuals:    ,   609          ,  BIC:               ,   1170. 
-Df Model:        ,     6          ,                     ,         
+Method:          ,Least Squares   ,  F-statistic:       ,   401.5 
+Date:            ,Wed, 10 May 2023,  Prob (F-statistic):,1.10e-248
+Time:            ,16:14:38        ,  Log-Likelihood:    , -559.77 
+No. Observations:,   616          ,  AIC:               ,   1140. 
+Df Residuals:    ,   606          ,  BIC:               ,   1184. 
+Df Model:        ,     9          ,                     ,         
 Covariance Type: ,nonrobust       ,                     ,         
                  ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
-const            ,    0.4307,    0.114,    3.762, 0.000,    0.206,    0.655
-inflationNRG/SERV,    0.0042,    0.002,    2.213, 0.027,    0.000,    0.008
-gov_exp_social   ,   -0.0207,    0.006,   -3.249, 0.001,   -0.033,   -0.008
-Q1-Q5_lag1       ,    0.9523,    0.040,   23.695, 0.000,    0.873,    1.031
-Q1-Q5_lag2       ,   -0.0976,    0.056,   -1.753, 0.080,   -0.207,    0.012
-Q1-Q5_lag3       ,    0.1541,    0.056,    2.735, 0.006,    0.043,    0.265
-Q1-Q5_lag4       ,   -0.0827,    0.042,   -1.980, 0.048,   -0.165,   -0.001
-Omnibus:      ,205.754,  Durbin-Watson:     ,   2.032
-Prob(Omnibus):, 0.000 ,  Jarque-Bera (JB):  ,3365.964
-Skew:         , 1.024 ,  Prob(JB):          ,    0.00
-Kurtosis:     ,14.267 ,  Cond. No.          ,    96.2
+const            ,    0.2465,    0.252,    0.977, 0.329,   -0.249,    0.742
+inflationNRG/SERV,    0.0048,    0.002,    2.478, 0.013,    0.001,    0.009
+gov_exp_social   ,   -0.0176,    0.007,   -2.689, 0.007,   -0.030,   -0.005
+gini             ,    0.0111,    0.007,    1.492, 0.136,   -0.004,    0.026
+urbanisation     ,   -0.0022,    0.003,   -0.776, 0.438,   -0.008,    0.003
+electric_share   ,   -0.0048,    0.004,   -1.293, 0.196,   -0.012,    0.002
+Q1-Q5_lag1       ,    0.9455,    0.040,   23.494, 0.000,    0.866,    1.025
+Q1-Q5_lag2       ,   -0.0971,    0.056,   -1.746, 0.081,   -0.206,    0.012
+Q1-Q5_lag3       ,    0.1541,    0.056,    2.739, 0.006,    0.044,    0.265
+Q1-Q5_lag4       ,   -0.0810,    0.042,   -1.942, 0.053,   -0.163,    0.001
+Omnibus:      ,217.546,  Durbin-Watson:     ,   2.036
+Prob(Omnibus):, 0.000 ,  Jarque-Bera (JB):  ,3522.462
+Skew:         , 1.114 ,  Prob(JB):          ,    0.00
+Kurtosis:     ,14.501 ,  Cond. No.          ,    588.
 
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
