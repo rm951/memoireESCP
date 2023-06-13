@@ -53,10 +53,8 @@ def analyze_budget_data(date_analysis):
     print(f"Analysis for {date_analysis} completed.")
 
 
-# Generate dates from 2021-05 to 2023-03
-dates = pd.date_range(start="2021-05", end="2023-03", freq='M')
+dates = pd.date_range(start="2023-03", end="2023-04", freq='M')
 
-# Format dates to 'YYYY-MM' and analyze budget data
 for date in dates:
     date_str = date.strftime('%Y-%m')
     analyze_budget_data(date_str)
