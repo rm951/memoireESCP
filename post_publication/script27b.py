@@ -64,7 +64,7 @@ def analyze_inflation(date_analysis, df_to_merge):
 
 df = pd.DataFrame()
 
-end_date = "2023-05"
+end_date = "2023-06"
 dates = pd.date_range(start="2021-03", end=end_date, freq='M')
 
 for date in dates:
